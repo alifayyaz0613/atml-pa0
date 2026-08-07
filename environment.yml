@@ -1,0 +1,12 @@
+name: atml
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - torchaudio
+  - pytorch
+  - torchvision
+  - jupyter
+  - matplotlib
+  - scikit-learn
+prefix: /opt/anaconda3/envs/atml
