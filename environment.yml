@@ -1,6 +1,7 @@
 name: atml
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.12
   - torchaudio
@@ -9,4 +10,5 @@ dependencies:
   - jupyter
   - matplotlib
   - scikit-learn
+  - umap-learn
 prefix: /opt/anaconda3/envs/atml
